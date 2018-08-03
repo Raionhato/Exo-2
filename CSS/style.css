@@ -1,0 +1,55 @@
+
+/* Ici on modifie les paragraphes*/
+#paragraphe{
+    height: 50px;
+    width: 300px;
+    overflow: hidden;
+}
+/**********************************/
+
+/*Ici on modifie l'effet*/
+#paragraphe:hover{
+    overflow: visible;
+}
+/************************************/
+
+/*Ici on modifie les elements de la liste*/
+.carre{
+    list-style-type: square;
+    color: red;
+}
+/******************************************/
+
+/*Ici on modifie la taille du tableau*/
+table{
+    width:300px;
+    height:20px;
+    border-collapse: collapse;
+}
+/****************************************/
+
+/*Ici on modifie les bordures du tableau*/
+td{
+    border: solid;
+    border-color: #554348;
+}
+/*****************************************/
+
+/*ici on modifie l'entete du tableau*/
+#entete{
+    color: white;
+    background-color: #554348;
+}
+/******************************************/
+
+/*Ici on modifie les colones impaires*/
+.impaire{
+    background-color: #D4F5F5;
+}
+/***************************************/
+
+/*Ici on modifie les colonnes paires*/
+.paire{
+    background-color: #8C9A9E;
+}
+/*****************************************/
